@@ -1,0 +1,186 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.background{
+  /*background: #C6FFDD;  
+  background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); 
+  background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+  */
+  color: black;
+  /*background: #a8ff78;  /* fallback for old browsers 
+  background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  
+  background: linear-gradient(to right, #78ffd6, #a8ff78); */
+}
+
+/* Fill button styling */
+.fill1 {
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 50px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  margin: 1rem;
+}
+
+.fill1::after {
+  content: "";
+  background-color: #66f2d5;
+  /*#66f2d5 #dcbaff */
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.fill1:hover::after {
+  top: 0px;
+  left: 0px;
+}
+.fill1:active {
+  opacity: 70%;
+}
+
+.fill2 {
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 50px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  margin: 1rem;
+}
+
+.fill2::after {
+  content: "";
+  background-color: #ffe54c;
+  /*#66f2d5 #dcbaff */
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.fill2:hover::after {
+  top: 0px;
+  left: 0px;
+}
+.fill2:active {
+  opacity: 70%;
+}
+
+.fill3 {
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 50px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  margin: 1rem;
+}
+
+.fill3::after {
+  content: "";
+  background-color: #dcbaff;
+  /*#66f2d5 #dcbaff */
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.fill3:hover::after {
+  top: 0px;
+  left: 0px;
+}
+.fill3:active {
+  opacity: 70%;
+}
+
+.fill4 {
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 50px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  margin: 1rem;
+}
+
+.fill4::after {
+  content: "";
+  background-color: #ff4c97;
+  /*#66f2d5 #dcbaff */
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.fill4:hover::after {
+  top: 0px;
+  left: 0px;
+}
+.fill4:active {
+  opacity: 70%;
+}
