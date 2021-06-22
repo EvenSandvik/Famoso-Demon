@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Famoso-Demon/static/css/main.b7ecf7cc.chunk.css",
+    "main.js": "/Famoso-Demon/static/js/main.50feef45.chunk.js",
+    "main.js.map": "/Famoso-Demon/static/js/main.50feef45.chunk.js.map",
+    "runtime-main.js": "/Famoso-Demon/static/js/runtime-main.c5cf4488.js",
+    "runtime-main.js.map": "/Famoso-Demon/static/js/runtime-main.c5cf4488.js.map",
+    "static/js/2.e6ab409e.chunk.js": "/Famoso-Demon/static/js/2.e6ab409e.chunk.js",
+    "static/js/2.e6ab409e.chunk.js.map": "/Famoso-Demon/static/js/2.e6ab409e.chunk.js.map",
+    "static/js/3.4c115f9e.chunk.js": "/Famoso-Demon/static/js/3.4c115f9e.chunk.js",
+    "static/js/3.4c115f9e.chunk.js.map": "/Famoso-Demon/static/js/3.4c115f9e.chunk.js.map",
+    "index.html": "/Famoso-Demon/index.html",
+    "static/css/main.b7ecf7cc.chunk.css.map": "/Famoso-Demon/static/css/main.b7ecf7cc.chunk.css.map",
+    "static/js/2.e6ab409e.chunk.js.LICENSE.txt": "/Famoso-Demon/static/js/2.e6ab409e.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/Famoso-Demon/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c5cf4488.js",
+    "static/js/2.e6ab409e.chunk.js",
+    "static/css/main.b7ecf7cc.chunk.css",
+    "static/js/main.50feef45.chunk.js"
+  ]
+}
